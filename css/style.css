@@ -8,7 +8,16 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 .firststycke img {
 display: block;
 width:200px;
-height:120px;
+height:120px;   
+padding-bottom:15px;
+
+}
+
+i {
+
+text-transform: uppercase;
+font-weight: 500;
+font-style: normal;
 
 }
 
