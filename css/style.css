@@ -321,3 +321,117 @@ background-color:cornflowerblue;
 color:white;
 
      }
+
+     .layout_table {
+
+margin-top:100px;
+
+     }
+
+
+
+
+
+
+     input[type="text"] {
+
+display: block;
+
+     }
+
+     
+     input[type="email"] {
+
+      display: block;
+      
+           }
+
+
+           textarea {
+
+              display: block;
+
+           }
+
+           input[type="checkbox"] {
+
+            display: block;
+
+
+           }
+label {
+  margin-right:10px;
+  float:left;
+}
+
+select {
+
+display: block;
+
+}
+
+.employee_radios {
+clear: both;
+display: block
+
+}
+
+.mezz {
+
+clear:both;
+
+}
+
+textarea {
+
+clear:both;
+
+}
+
+.layout_form {
+
+width:60%;
+margin:0 auto;
+
+
+}
+
+fieldset {
+
+  padding: 25px;
+  background: #0000001a;
+}
+
+.space {
+
+margin-bottom:20px;
+
+}
+
+
+.section_form {
+display: grid;
+
+grid-template-columns: 50% 50%;
+grid-template-areas: "form_lt form_rt";
+grid-template-rows: 100%;
+margin-top:100px;
+
+}
+
+
+.form_left {
+
+grid-area: form_lt;
+
+
+}
+
+
+
+.form_right {
+
+  grid-area: form_rt;
+  
+  
+  }

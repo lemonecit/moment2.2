@@ -34,21 +34,87 @@
 
 <main>
 
+    <section class="section_form">
 
-    
-</main>
+        <aside class="form_left">
 
-<footer>
-    <section class="footer_section">
-        <aside class='footer_aside_left'>
-
-            <ul class="footer_menu">
+            
+            <form class="layout_form" action="">
                 
+                <fieldset>
+                    
+                    <legend>Kontaktformulär</legend>
+                    <div class="space">
+                        
+                        <label for="name">Namn:</label> <input name="name" type="text" placeholder="Förnamn Efternamn" >
+                    </div>
+                    
+                    <div class="space">
+                        
+                        <label for="email">Email:</label><input name="email" type="email" placeholder="namn@domän.se">
+                    </div>
+                    <div class="space">
+                        <label for="webbutveckling">Välj yrkeroller:</label>
+                        <select id="webbutveckling" name="webbutveckling" size="1">
+                            <option value="webutvecklare">Webbutvecklare</option>
+                            <option value="webbdesigner">Webbdesigner</option>
+                            <option value="projektledare">Projektledare</option>
+                            <option value="senior webbutvecklare">Chef</option>
+                        </select>
+                    </div>
+                    <div class="space">
+                        
+                        <label for="nyhetsbrev">Nyhetsbrev:</label><input name="nyhetsbrev" type="checkbox" name="nyhetsbrev" id="">
+                    </div>
+                    <div class="space">
+                        
+                        <label class="employee_radios" for="">Anställd:</label>
+                    </div>
+                    <div class="space">
+                        
+                        <input type="radio" name="employee_radio" id="" value="ja">Ja
+                        
+                        <input type="radio" name="employee_radio" id="" value="nej">Nej
+                    </div>
+                    
+                    <div class="space">
+                        
+                        <label class="mezz" for="meddelande">Meddelande:</label>
+                        
+                        <textarea name="meddelande" id="" cols="30" rows="10" placeholder="Skriv något meddelande om du kan!"></textarea>
+                        
+                    </div>
+                    <input type="button" value="Skicka">
+                    <input type="reset" value="Nollställ">
+                    
+                    
+                </fieldset>
+                
+            </form>
+        </aside>
+        
+        <aside class="form_right">
 
-                <li><a href="index.html">start</a></li>
-                <li><a href="courses.html">Kurser</a></li>
-                <li><a href="pictures.html">Bilder</a></li>
-                <li id="active"><a href="contact.html">Kontakt</a></li>
+            <img src="/images/airmailstamp.png" alt="">
+
+        </aside>
+
+        </section>
+    
+        
+    </main>
+    
+    <footer>
+        <section class="footer_section">
+            <aside class='footer_aside_left'>
+                
+                <ul class="footer_menu">
+                    
+                    
+                    <li><a href="index.html">start</a></li>
+                    <li><a href="courses.html">Kurser</a></li>
+                    <li><a href="pictures.html">Bilder</a></li>
+                    <li id="active"><a href="contact.html">Kontakt</a></li>
                 <li><a href="about.html">Om oss</a></li>
 
             </ul>
