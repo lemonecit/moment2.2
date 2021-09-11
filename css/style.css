@@ -412,7 +412,7 @@ margin-bottom:20px;
 .section_form {
 display: grid;
 
-grid-template-columns: 50% 50%;
+grid-template-columns: 60% 40%;
 grid-template-areas: "form_lt form_rt";
 grid-template-rows: 100%;
 margin-top:100px;
@@ -434,4 +434,11 @@ grid-area: form_lt;
   grid-area: form_rt;
   
   
+  }
+
+
+  .album {
+
+
+    width:500px;
   }
