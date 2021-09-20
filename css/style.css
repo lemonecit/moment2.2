@@ -67,14 +67,14 @@
   width: 200px;
   }
 
-  .topnav #active a
+  .topnav .active a
   {
     color:black;
     background-color:rgb(185, 181, 181);
     line-height:100px;
   }
 
-  .topnav #active1 a 
+  .topnav .active1 a 
   {
     color:black;
     background-color:rgb(255, 255, 255);
@@ -179,7 +179,7 @@
 
 /* footer menu code begin */
 
-  .footer_menu #active a 
+  .footer_menu .active a 
   {
     color:black;
     background-color:rgb(185, 181, 181);
